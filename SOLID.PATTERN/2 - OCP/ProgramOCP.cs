@@ -11,7 +11,8 @@ namespace SOLID.PATTERN._2___OCP
         public static void Main(string[] args)
         {
             // OCP – Open Close Principle
-            // 
+            // Consiste em seguir um principio de "Módulos de software devem ser fechados para modificações, mas abertos
+            // a extenções"
         }
     }
 }

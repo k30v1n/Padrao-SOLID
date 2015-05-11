@@ -31,7 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SOLID.PATTERN.Program</StartupObject>
+    <StartupObject>SOLID.PATTERN.LSP.Solucao.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="1 - SRP\ProgramSRP.cs" />
@@ -48,9 +48,15 @@
     <Compile Include="2 - OCP\OCP.Solucao\DebitoContaPoupanca.cs" />
     <Compile Include="2 - OCP\OCP.Solucao\DebitoContaCorrente.cs" />
     <Compile Include="2 - OCP\ProgramOCP.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Forma.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Program.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Quadrado.cs" />
+    <Compile Include="3 - LSP\LSP.Solucao\Retangulo.cs" />
     <Compile Include="3 - LSP\LSP.Violacao\Program.cs" />
     <Compile Include="3 - LSP\LSP.Violacao\Quadrado.cs" />
     <Compile Include="3 - LSP\LSP.Violacao\Retangulo.cs" />
+    <Compile Include="3 - LSP\ProgramLSP.cs" />
+    <Compile Include="4 - ISP\ISP.Solucao\ICadastro.cs" />
     <Compile Include="4 - ISP\ISP.Violacao\CadastroCliente.cs" />
     <Compile Include="4 - ISP\ISP.Violacao\CadastroProduto.cs" />
     <Compile Include="4 - ISP\ISP.Violacao\ICadastro.cs" />
@@ -58,6 +64,7 @@
     <Compile Include="4 - ISP\ISP.Solucao\CadastroProduto.cs" />
     <Compile Include="4 - ISP\ISP.Solucao\ICadastroCliente.cs" />
     <Compile Include="4 - ISP\ISP.Solucao\ICadastroProduto.cs" />
+    <Compile Include="4 - ISP\ProgramISP.cs" />
     <Compile Include="5 - DIP\DIP.Violacao\Cliente.cs" />
     <Compile Include="5 - DIP\DIP.Violacao\ClienteRepository.cs" />
     <Compile Include="5 - DIP\DIP.Violacao\ClienteService.cs" />
@@ -72,6 +79,7 @@
     <Compile Include="5 - DIP\DIP.Solucao\Interfaces\IClienteServices.cs" />
     <Compile Include="5 - DIP\DIP.Solucao\Interfaces\ICPFServices.cs" />
     <Compile Include="5 - DIP\DIP.Solucao\Interfaces\IEmailServices.cs" />
+    <Compile Include="5 - DIP\ProgramDIP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
